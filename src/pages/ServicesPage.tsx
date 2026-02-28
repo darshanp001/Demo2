@@ -72,12 +72,12 @@ const services = [
 ];
 
 const ServicesPage = () => {
-  const [expandedIndex, setExpandedIndex] = useState(null);
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
   const [ref, isVisible] = useScrollAnimation();
 
-  const toggleExpand = (index) => {
-    setExpandedIndex(expandedIndex === index ? null : index);
-  };
+  const toggleExpand = (index: number) => {
+     setExpandedIndex(expandedIndex === index ? null : index); 
+    };
 
   return (
     <div className="pt-20">
