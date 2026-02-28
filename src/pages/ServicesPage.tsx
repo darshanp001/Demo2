@@ -2,14 +2,14 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
-import rootCanalImg from "../assests/boy-at-the-dentist.jpg.jpeg";
+import rootCanalImg from "../assests/2.jpg";
 import dentalImplantImg from "../assests/close-up-of-a-dental-tooth-implant-or-healthy-human-teeth-white-enamel-and-dental-implants-surgery-concept-by-ai-generated-free-photo.jpg.jpeg";
 import teethWhiteningImg from "../assests/teeth_whitening.jpeg";
 import bracesImg from "../assests/braces_vs_aliners.jpeg";
 import smileMakeoverImg from "../assests/smile-correction.jpg.jpeg";
 import toothExtractionImg from "../assests/Tooth-Extraction-Procedure.jpg.jpeg";
 import kidsDentistryImg from "../assests/little-cute-funny-smiling-girl-260nw-2235064531.jpg.jpeg";
-import gumTreatmentImg from "../assests/dis-estetigi-ve-gulus-tasariminin-farki-nedir-1.jpg.jpeg";
+import gumTreatmentImg from "../assests/gum.jpg";
 
 const services = [
   {
